@@ -1,0 +1,10 @@
+package class_06_29;
+
+public class ArrayVerusLinkedList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,37 @@
+package class_06_24;
+
+public class Recursion {
+
+	public static int factorial(int n) {
+		int product = 1;
+		for (int i = 0; i <= n; i++) {
+			product *= i;
+		}
+		return product;
+	}
+	
+	public static int factorialR(int n) {
+		if (n < 1) {
+			return 1;
+		} else {
+			return n * factorialR(n - 1);
+		}
+	}
+	
+	public static String binaryConvertion(int n) {
+		int remainder = 0;
+		if (n > 0) {
+			remainder = n % 2;
+			return String.valueOf(remainder) + binaryConvertion(n % 2);
+		}
+		return "";
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(factorial(4));
+		System.out.println(factorialR(4));
+		System.out.println(binaryConvertion(16));
+
+	}
+
+}

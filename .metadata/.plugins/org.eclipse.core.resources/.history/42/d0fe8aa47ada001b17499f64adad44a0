@@ -1,0 +1,34 @@
+package class_07_01;
+
+import java.util.List;
+
+enum Type {
+	PLUS, MINUS, TIMES, DIV, NUM
+}
+class Token {
+	Type t;
+	double value;
+}
+
+public class Postfix {
+	
+	public double evaluate(List<Token> expr) {
+		for (Token s: expr) {
+			System.out.println(s);
+		}
+		return 0;
+	}
+	
+	public double evaluate(String expr) {
+		String tokens[] = expr.split(" ");
+		for (int i = 0; i < tokens.length; i++) {
+			System.out.println(tokens[i]);
+		}
+		return 0;
+	}
+	public static void main(String[] args) {
+		System.out.println(evaluate("2 5 +"));
+
+	}
+
+}

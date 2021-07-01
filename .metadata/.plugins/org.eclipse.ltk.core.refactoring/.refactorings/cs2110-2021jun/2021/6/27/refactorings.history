@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void isPalindrome(String str)&apos; from &apos;class_06_28.Palindrome.main(...)&apos; to &apos;class_06_28.Palindrome&apos;&#x0A;- Original project: &apos;cs2110-2021jun&apos;&#x0A;- Method name: &apos;isPalindrome&apos;&#x0A;- Destination type: &apos;class_06_28.Palindrome&apos;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;isPalindrome&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/&lt;class_06_28{Palindrome.java" name="isPalindrome" replace="false" selection="195 434" stamp="1624891946711" version="1.0" visibility="2"/>
+</session>

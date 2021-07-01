@@ -1,0 +1,26 @@
+package class_06_30;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListPerformance {
+
+	public static long grow(List list, int finalSize) {
+		long start = System.currentTimeMillis();
+		
+		for (int i = 0; i < finalSize; i++) {
+			list.add(0, i);
+		}
+		long end = System.currentTimeMillis();
+		return end - start;
+
+	}
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<>();
+		for ( int finalSize = 1000; finalSize < 100000; finalSize += 1000) {
+			long duration = grow(list, finalSize);
+			System.out.println(duration);
+		}
+	}
+
+}
