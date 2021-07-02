@@ -12,7 +12,7 @@ public class Geometry {
 	}
 
 	public static double slope(Point j, Point k) {
-		return (k.y() - j.y()) / (double) (k.x() - j.x());
+		return (k.y() - j.y()) / (k.x() - j.x());
 	}
 
 	/*

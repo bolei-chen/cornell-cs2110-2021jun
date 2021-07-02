@@ -1,7 +1,5 @@
 package class_07_01;
 
-import java.util.List;
-
 import edu.princeton.cs.algs4.Stack;
 
 
@@ -25,14 +23,15 @@ public class Postfix {
 	
 	
 	public static double evaluate(String expr) {
-		String tokens[] = expr.split(" ");
+		String[] tokens = expr.split(" ");
 		Stack<Double> stack = new Stack<>();
 		for (int i = 0; i < tokens.length; i++) {
 			if (isPlus(tokens[i])) {
 				stack.push(stack.pop() + stack.pop());
 				
 			} else if (isMinus(tokens[i])) {
-				double v1 = stack.pop(), v2 = stack.pop();
+				double v1 = stack.pop();
+				double v2 = stack.pop();
 				stack.push(v2 - v1);
 				
 			} else if (isTimes(tokens[i])) {

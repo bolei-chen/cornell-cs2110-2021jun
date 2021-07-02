@@ -33,4 +33,9 @@ public class Point {
 		return Math.sqrt(((x - other.x) * (x - other.x)) + //
 				((y - other.y) * (y - other.y)));
 	}
+
+	public static void main(String[] args) {
+		Point a = new Point(10, 11);
+		System.out.println(a.toString());
+	}
 }

@@ -1,12 +1,11 @@
 package class_06_30;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 public class ListPerformance {
 
-	public static long grow(List list, int finalSize) {
+	public static long grow(List<Integer> list, int finalSize) {
 		long start = System.currentTimeMillis();
 		
 		for (int i = 0; i < finalSize; i++) {

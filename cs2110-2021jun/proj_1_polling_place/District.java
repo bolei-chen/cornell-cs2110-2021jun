@@ -85,9 +85,8 @@ public class District {
 		Random r = new Random();
 		double hSpan = rightMost.x() - leftMost.x();
 		double vSpan = rightMost.y() - leftMost.y();
-		Point outThere = new Point( //
-				rightMost.x() + 10 * r.nextDouble() * hSpan, //
-				highest.y() + 10 * r.nextDouble() * vSpan);
+		Point outThere = new Point(
+			rightMost.x() + 10 * r.nextDouble() * hSpan, highest.y() + 10 * r.nextDouble() * vSpan);
 		return outThere;
 	}
 
@@ -178,8 +177,11 @@ public class District {
 	 */
 	public static List<Point> doublesToPoints(Queue<Double> dx, Queue<Double> dy) {
 		// ...YOUR WORK GOES HERE...
-
-		return null; // ...THIS NEEDS TO CHANGE...
+			List<Point> points = new ArrayList<>();
+			for (int i = 0; i < dx.size(); i++) {
+				points.add(new Point(dx.dequeue(), dy.dequeue()));
+			}
+		return points; // ...THIS NEEDS TO CHANGE...
 	}
 
 	/*
