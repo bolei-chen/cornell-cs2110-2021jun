@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/cs2110-2021jun/class_07_01/Postfix.java"/>
+        <listEntry value="/cs2110-2021jun/proj_1_polling_place_v2/Counter.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
@@ -11,8 +11,8 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
-    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="class_07_01.Postfix"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="proj_1_polling_place_v2.Counter"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="cs2110-2021jun"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="locations.txt"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="locations.txt square.txt"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="cs2110-2021jun"/>
 </launchConfiguration>

@@ -211,8 +211,12 @@ public class District {
 	public static List<Point> doublesToPoints(Queue<Double> dx, Queue<Double> dy) {
 		// ...YOUR WORK GOES HERE...
 		List<Point> points = new ArrayList<>();
-		for (int i = 0; i < dx.size(); i++) {
-			points.add(new Point(dx.dequeue(), dy.dequeue()));
+		String[] xStr = dx.toString().split(" ");
+		String[] yStr = dy.toString().split(" ");
+		for (int i = 0; i < xStr.length; i++) {
+			points.add(new Point(Double.parseDouble(xStr[i]), Double.parseDouble(yStr[i])));
+			dx.dequeue();
+			dy.dequeue();
 		}
 		return points;
 	}
@@ -241,15 +245,19 @@ public class District {
 		// ...YOUR WORK GOES HERE...
 		Point pointOutThere = outsidePoint(p);
 		int counter = 0;
+
 		for (int i = 0; i < corners.size() - 1; i++) {
 			if (Geometry.intersects(p, pointOutThere, corners.get(i), corners.get(i + 1))) {
 				counter++;
 			}
 		}
-		if (counter % 2 == 1) {
-			return false;
+		if (Geometry.intersects(p, pointOutThere, corners.get(corners.size() - 1), corners.get(0))) {
+			counter++;
 		}
-		return true;
+		if (counter % 2 == 1) {
+			return true;
+		}
+		return false;
 	}
 
 	/*
@@ -258,7 +266,7 @@ public class District {
 	public int countContained(List<Point> locations) {
 		// ...YOUR WORK GOES HERE...
 		int counter = 0;
-		for (Point p: locations) {
+		for (Point p : locations) {
 			if (contains(p)) {
 				counter++;
 			}

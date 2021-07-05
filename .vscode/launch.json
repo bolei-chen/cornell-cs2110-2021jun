@@ -1,0 +1,1456 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestAlgs4",
+            "request": "launch",
+            "mainClass": "TestAlgs4",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "class_06_21.HelloWorld",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "class_06_22.BinarySearch",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment1",
+            "request": "launch",
+            "mainClass": "class_06_23.Assignment1",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch CommandLineProcessing",
+            "request": "launch",
+            "mainClass": "class_06_23.CommandLineProcessing",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectionSort",
+            "request": "launch",
+            "mainClass": "class_06_23.SelectionSort",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Recursion",
+            "request": "launch",
+            "mainClass": "class_06_24.Recursion",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch AbstractDataTypes",
+            "request": "launch",
+            "mainClass": "class_06_25.AbstractDataTypes",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Point",
+            "request": "launch",
+            "mainClass": "class_06_25.Point",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindrome",
+            "request": "launch",
+            "mainClass": "class_06_28.Palindrome",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayVerusLinkedList",
+            "request": "launch",
+            "mainClass": "class_06_29.ArrayVerusLinkedList",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProgrammingToTheInterface",
+            "request": "launch",
+            "mainClass": "class_06_29.ProgrammingToTheInterface",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListPerformance",
+            "request": "launch",
+            "mainClass": "class_06_30.ListPerformance",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Postfix",
+            "request": "launch",
+            "mainClass": "class_07_01.Postfix",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Interfaces",
+            "request": "launch",
+            "mainClass": "class_07_02.Interfaces",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch AVLTreeST",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.AVLTreeST",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Accumulator",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Accumulator",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch AcyclicLP",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.AcyclicLP",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch AcyclicSP",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.AcyclicSP",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch AdjMatrixEdgeWeightedDigraph",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.AdjMatrixEdgeWeightedDigraph",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch AllowFilter",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.AllowFilter",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Allowlist",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Allowlist",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Alphabet",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Alphabet",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch AmericanFlag",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.AmericanFlag",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch AmericanFlagX",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.AmericanFlagX",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arbitrage",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Arbitrage",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch AssignmentProblem",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.AssignmentProblem",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Average",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Average",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BST",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BST",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BTree",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BTree",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bag",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Bag",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BellmanFordSP",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BellmanFordSP",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryDump",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BinaryDump",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryIn",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BinaryIn",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryInsertion",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BinaryInsertion",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryOut",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BinaryOut",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch(1)",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BinarySearch",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearchST",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BinarySearchST",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryStdIn",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BinaryStdIn",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryStdOut",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BinaryStdOut",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bipartite",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Bipartite",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BipartiteMatching",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BipartiteMatching",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BipartiteX",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BipartiteX",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BlockFilter",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BlockFilter",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BoruvkaMST",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BoruvkaMST",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BoyerMoore",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BoyerMoore",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BreadthFirstDirectedPaths",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BreadthFirstDirectedPaths",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BreadthFirstPaths",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BreadthFirstPaths",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch CC",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.CC",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch CPM",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.CPM",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cat",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Cat",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClosestPair",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.ClosestPair",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch CollisionSystem",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.CollisionSystem",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Complex",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Complex",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Count",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Count",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Counter",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Counter",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cycle",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Cycle",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Date",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Date",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeDup",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DeDup",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DegreesOfSeparation",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DegreesOfSeparation",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DepthFirstDirectedPaths",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DepthFirstDirectedPaths",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DepthFirstOrder",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DepthFirstOrder",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DepthFirstPaths",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DepthFirstPaths",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DepthFirstSearch",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DepthFirstSearch",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Digraph",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Digraph",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DigraphGenerator",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DigraphGenerator",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DijkstraAllPairsSP",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DijkstraAllPairsSP",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DijkstraSP",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DijkstraSP",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DijkstraUndirectedSP",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DijkstraUndirectedSP",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DirectedCycle",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DirectedCycle",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DirectedCycleX",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DirectedCycleX",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DirectedDFS",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DirectedDFS",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DirectedEdge",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DirectedEdge",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DirectedEulerianCycle",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DirectedEulerianCycle",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DirectedEulerianPath",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DirectedEulerianPath",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoublingRatio",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DoublingRatio",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoublingTest",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DoublingTest",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Draw",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Draw",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Edge",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Edge",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch EdgeWeightedDigraph",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.EdgeWeightedDigraph",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch EdgeWeightedDirectedCycle",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.EdgeWeightedDirectedCycle",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch EdgeWeightedGraph",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.EdgeWeightedGraph",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch EulerianCycle",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.EulerianCycle",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch EulerianPath",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.EulerianPath",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch FFT",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FFT",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch FarthestPair",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FarthestPair",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch FenwickTree",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FenwickTree",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileIndex",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FileIndex",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowEdge",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FlowEdge",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowNetwork",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FlowNetwork",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch FloydWarshall",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FloydWarshall",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch FordFulkerson",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FordFulkerson",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch FrequencyCounter",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FrequencyCounter",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch GREP",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.GREP",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch GabowSCC",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.GabowSCC",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch GaussJordanElimination",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.GaussJordanElimination",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch GaussianElimination",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.GaussianElimination",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Genome",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Genome",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch GlobalMincut",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.GlobalMincut",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch GrahamScan",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.GrahamScan",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Graph",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Graph",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch GraphGenerator",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.GraphGenerator",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch GrayscalePicture",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.GrayscalePicture",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Heap",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Heap",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch HexDump",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.HexDump",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch HopcroftKarp",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.HopcroftKarp",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Huffman",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Huffman",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch In",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.In",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch IndexMaxPQ",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.IndexMaxPQ",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch IndexMinPQ",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.IndexMinPQ",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch InplaceMSD",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.InplaceMSD",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Insertion",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Insertion",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionX",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.InsertionX",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Interval1D",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Interval1D",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Interval2D",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Interval2D",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inversions",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Inversions",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch KMP",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.KMP",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch KWIK",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.KWIK",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Knuth",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Knuth",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch KosarajuSharirSCC",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.KosarajuSharirSCC",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch KruskalMST",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.KruskalMST",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch LSD",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LSD",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch LZW",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LZW",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch LazyPrimMST",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LazyPrimMST",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearProbingHashST",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LinearProbingHashST",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearProgramming",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LinearProgramming",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedBag",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LinkedBag",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedQueue",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LinkedQueue",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedStack",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LinkedStack",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestCommonSubstring",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LongestCommonSubstring",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestRepeatedSubstring",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LongestRepeatedSubstring",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch LookupCSV",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LookupCSV",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch LookupIndex",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LookupIndex",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch MSD",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.MSD",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxPQ",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.MaxPQ",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Merge",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Merge",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeBU",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.MergeBU",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeX",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.MergeX",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinPQ",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.MinPQ",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Multiway",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Multiway",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch NFA",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.NFA",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch NonrecursiveDFS",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.NonrecursiveDFS",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch NonrecursiveDirectedDFS",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.NonrecursiveDirectedDFS",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Out",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Out",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch PatriciaSET",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.PatriciaSET",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch PatriciaST",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.PatriciaST",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Picture",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Picture",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch PictureDump",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.PictureDump",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Point2D",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Point2D",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Polynomial",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Polynomial",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimMST",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.PrimMST",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Queue",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Queue",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quick",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Quick",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quick3string",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Quick3string",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quick3way",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Quick3way",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickBentleyMcIlroy",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.QuickBentleyMcIlroy",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickFindUF",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.QuickFindUF",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickUnionUF",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.QuickUnionUF",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickX",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.QuickX",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch RabinKarp",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.RabinKarp",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomSeq",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.RandomSeq",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch RedBlackBST",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.RedBlackBST",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch ResizingArrayBag",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.ResizingArrayBag",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch ResizingArrayQueue",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.ResizingArrayQueue",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch ResizingArrayStack",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.ResizingArrayStack",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunLength",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.RunLength",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch SET",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SET",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch ST",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.ST",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch SegmentTree",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SegmentTree",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Selection",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Selection",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch SeparateChainingHashST",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SeparateChainingHashST",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch SequentialSearchST",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SequentialSearchST",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Shell",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Shell",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch SparseVector",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SparseVector",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stack",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Stack",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdArrayIO",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.StdArrayIO",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdAudio",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.StdAudio",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdDraw",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.StdDraw",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdIn",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.StdIn",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdOut",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.StdOut",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdRandom",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.StdRandom",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdStats",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.StdStats",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stopwatch",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Stopwatch",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch StopwatchCPU",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.StopwatchCPU",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch SuffixArray",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SuffixArray",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch SuffixArrayX",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SuffixArrayX",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch SymbolDigraph",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SymbolDigraph",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch SymbolGraph",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SymbolGraph",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch TST",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.TST",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch TarjanSCC",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.TarjanSCC",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreeSum",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.ThreeSum",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreeSumFast",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.ThreeSumFast",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch TopM",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.TopM",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Topological",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Topological",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch TopologicalX",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.TopologicalX",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Transaction",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Transaction",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch TransitiveClosure",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.TransitiveClosure",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrieSET",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.TrieSET",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrieST",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.TrieST",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoPersonZeroSumGame",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.TwoPersonZeroSumGame",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch UF",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.UF",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Vector",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Vector",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch WeightedQuickUnionUF",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.WeightedQuickUnionUF",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaseConversion",
+            "request": "launch",
+            "mainClass": "proj_0_base_conversion.BaseConversion",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Counter(1)",
+            "request": "launch",
+            "mainClass": "proj_1_polling_place_v2.Counter",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Geometry",
+            "request": "launch",
+            "mainClass": "proj_1_polling_place_v2.Geometry",
+            "projectName": "cs2110-2021jun"
+        }
+    ]
+}
