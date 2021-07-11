@@ -1,0 +1,11 @@
+graph g {
+	graph[layout=neato]
+	graph[margin=0]
+	node[shape=point]
+	0 [label="(0.0,0.0)",pos="0.0,0.0!"]
+	1 [label="(2.0,4.0)",pos="2.0,4.0!"]
+	1 -- 0
+	2 [label="(4.0,0.0)",pos="4.0,0.0!"]
+	2 -- 1
+	2 -- 0
+}

@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArithmeticAndGeometricExpansion",
+            "request": "launch",
+            "mainClass": "problem_set_due_07_07.ArithmeticAndGeometricExpansion",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Merge",
+            "request": "launch",
+            "mainClass": "date_07_07.Merge",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumOfIterations",
+            "request": "launch",
+            "mainClass": "problem_set_due_07_07.NumOfIterations",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
