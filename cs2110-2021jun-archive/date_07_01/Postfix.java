@@ -1,4 +1,4 @@
-package class_07_01;
+package date_07_01;
 
 import edu.princeton.cs.algs4.Stack;
 

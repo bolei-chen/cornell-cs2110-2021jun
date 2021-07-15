@@ -1,4 +1,4 @@
-package problem_set_due_07_07;
+package problem_set_1;
 
 import java.util.Stack;
 

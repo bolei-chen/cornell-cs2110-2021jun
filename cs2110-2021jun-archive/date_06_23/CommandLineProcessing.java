@@ -1,4 +1,4 @@
-package class_06_23;
+package date_06_23;
 
 public class CommandLineProcessing {
 

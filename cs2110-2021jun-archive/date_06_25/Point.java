@@ -1,4 +1,4 @@
-package class_06_25;
+package date_06_25;
 
 public class Point {
 	private double x;

@@ -1,4 +1,4 @@
-package class_06_24;
+package date_06_24;
 
 public class Recursion {
 
@@ -53,17 +53,15 @@ public class Recursion {
 
 
 	public static int fibonacchi(int n) {
-		if (n == 1 || n == 2) {
-			return 1;
+		System.out.println(" Hi" );
+		if (n > 1) {
+			return fibonacchi(n - 1) + fibonacchi(n - 2);
+		} else {
+			return n;
 		}
-
-		return fibonacchi(n - 1) + fibonacchi(n - 2);
 	}
 
 	public static void main(String[] args) {
-		System.out.println(factorial(4));
-		System.out.println(factorialR(4));
-		System.out.println(binaryConvertion(16));
 		System.out.println(fibonacchi(5));
 
 	}

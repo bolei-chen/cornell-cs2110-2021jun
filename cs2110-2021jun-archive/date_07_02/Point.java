@@ -1,4 +1,4 @@
-package class_07_02;
+package date_07_02;
 
 public class Point implements Comparable<Point> {
 

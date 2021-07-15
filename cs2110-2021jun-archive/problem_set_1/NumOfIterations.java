@@ -1,7 +1,8 @@
-package problem_set_due_07_07;
+package problem_set_1;
 
 public class NumOfIterations {
 
+  // n * 3n = 3n^2
   public static int countMeasure1(int n) {
     int counter = 0;
     for (int i = 0; i < n; i++) {
@@ -15,6 +16,7 @@ public class NumOfIterations {
     return counter;
   }
 
+  // n * n * n = n^3
   public static int countMeasure2(int n) {
     int counter = 0;
     for (int i = 0; i < n * n; i++)
@@ -23,6 +25,7 @@ public class NumOfIterations {
     return counter;
   }
 
+  // n * (2n + n / 2) = 5n^2 / 2
   public static int countMeasure3(int n) {
     int counter = 0;
     for (int i = 0; i < n; i++) {
@@ -36,6 +39,7 @@ public class NumOfIterations {
     return counter;
   }
 
+  // n * (n^2 / 2) = n^3 / 2
   public static int countMeasure4(int n) {
     int counter = 0;
     for (int i = 0; i < n; i++)
@@ -44,6 +48,7 @@ public class NumOfIterations {
     return counter;
   }
 
+  // (n / 2) * (n / 2 + 2n) = 5n^2 / 4
   public static int countMeasure5(int n) {
     int counter = 0;
     for (int i = 0; i < n; i = i + 2) {
@@ -57,6 +62,7 @@ public class NumOfIterations {
     return counter;
   }
 
+  // n * n / 3 = n^2 / 3
   public static int countMeasure6(int n) {
     int counter = 0;
     for (int i = 0; i < n; i++)
@@ -65,6 +71,7 @@ public class NumOfIterations {
     return counter;
   }
 
+  // n * n
   public static int countMeasure7(int n) {
     int counter = 0;
     for (int i = 1; i <= n; i++)
@@ -75,6 +82,7 @@ public class NumOfIterations {
     return counter;
   }
 
+  // (n * n / 5) * n / 10 = n^3 / 50
   public static int countMeasure8(int n) {
     int counter = 0;
     for (int i = 0; i < n * n; i = i + 5)

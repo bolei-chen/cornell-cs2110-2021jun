@@ -90,6 +90,8 @@ public class Quick {
 
         // put partitioning item v at a[j]
         exch(a, lo, j);
+        show(a);
+        System.out.println("----------------------------------");
 
         // now, a[lo .. j-1] <= a[j] <= a[j+1 .. hi]
         return j;
@@ -164,19 +166,9 @@ public class Quick {
      * standard output, but this time, using the select method.
      */
     public static void main(String[] args) {
-        String[] a = StdIn.readAllStrings();
-        Quick.sort(a);
-        show(a);
-
-        // shuffle
-        StdRandom.shuffle(a);
-
-        // display results again using select
-        StdOut.println();
-        for (int i = 0; i < a.length; i++) {
-            String ith = (String) Quick.select(a, i);
-            StdOut.println(ith);
+        Integer[] a ={2,1,5,3,4,6,7,11,8,12,10,9};
+        System.out.println(partition(a, 7, 11));
         }
     }
 
-}
+

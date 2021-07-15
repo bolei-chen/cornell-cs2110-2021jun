@@ -1,4 +1,4 @@
-package class_06_28;
+package date_06_28;
 
 import edu.princeton.cs.algs4.Queue;
 import edu.princeton.cs.algs4.Stack;

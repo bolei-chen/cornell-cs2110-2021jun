@@ -1,4 +1,4 @@
-package class_06_21;
+package date_06_21;
 
 public class HelloWorld {
 

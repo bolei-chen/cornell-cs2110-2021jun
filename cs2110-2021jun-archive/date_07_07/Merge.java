@@ -176,7 +176,8 @@ public class Merge {
      * and prints them to standard output in ascending order. 
      */
     public static void main(String[] args) {
-        String[] a = StdIn.readAllStrings();
+//        String[] a = StdIn.readAllStrings();
+        String[] a = {"b", "d", "a", "c"};
         Merge.sort(a);
         show(a);
     }

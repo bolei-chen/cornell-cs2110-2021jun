@@ -1,4 +1,4 @@
-package class_06_22;
+package date_06_22;
 
 public class BinarySearch {
 	public static int rank(int key, int[] a) { // Array must be sorted.

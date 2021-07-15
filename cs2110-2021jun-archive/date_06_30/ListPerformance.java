@@ -1,4 +1,4 @@
-package class_06_30;
+package date_06_30;
 
 import java.util.LinkedList;
 import java.util.List;

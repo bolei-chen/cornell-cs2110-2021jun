@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Quick",
+            "request": "launch",
+            "mainClass": "date_07_07.Quick",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Maps",
+            "request": "launch",
+            "mainClass": "class_07_12.Maps",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Comparison",
+            "request": "launch",
+            "mainClass": "probelm_set_due_07_12.Comparison",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
             "name": "Launch ArithmeticAndGeometricExpansion",
             "request": "launch",
             "mainClass": "problem_set_due_07_07.ArithmeticAndGeometricExpansion",
