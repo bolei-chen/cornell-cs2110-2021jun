@@ -49,4 +49,9 @@ public class Merge {
         a[j] = swap;
     }
 
+    public static void main(String[] args) {
+        Comparable[] a = {4, 3, 6, 2, 1, 5, 8};
+        Merge.sort(a);
+    }
+
 }

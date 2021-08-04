@@ -4,6 +4,43 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
+        {
+            "type": "java",
+            "name": "Launch Cool",
+            "request": "launch",
+            "mainClass": "date_07_22.Cool",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch Experiment",
+            "request": "launch",
+            "mainClass": "problem_set_3.Experiment",
+            "projectName": "cs2110-2021jun"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestAlgs4",
+            "request": "launch",
+            "mainClass": "TestAlgs4",
+            "projectName": "cs2110-2021jun (2)"
+        },
+        {
+            "type": "java",
+            "name": "Launch Similarity",
+            "request": "launch",
+            "mainClass": "proj_2_similarity.Similarity",
+            "projectName": "cs2110-2021jun",
+            "args": "any moviesAny1.txt"
+        },
+        {
+            "type": "java",
+            "name": "Launch Merge",
+            "request": "launch",
+            "mainClass": "probelm_set_2.Merge",
+            "projectName": "cs2110-2021jun (2)"
+        },
         {
             "type": "java",
             "name": "Launch Quick",
@@ -498,7 +535,8 @@
             "name": "Launch DepthFirstSearch",
             "request": "launch",
             "mainClass": "edu.princeton.cs.algs4.DepthFirstSearch",
-            "projectName": "cs2110-2021jun"
+            "projectName": "cs2110-2021jun",
+            "args": "date_07_27/tinyG.txt"
         },
         {
             "type": "java",
